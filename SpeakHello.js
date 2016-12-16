@@ -2,7 +2,7 @@
   var helloSpeaker = {} ;
   var speakWord = "Hello";
   helloSpeaker.speak = function(name) {
-speakWord + " " + name;
+ return speakWord + " " + name;
   }
   window.helloSpeaker= helloSpeaker;
 })(window);
